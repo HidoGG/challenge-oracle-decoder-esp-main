@@ -85,7 +85,7 @@ botonEncriptacion.addEventListener("click", function (event) {
     encriptaciones = encriptaciones.replace(/a/g, "ai");
     encriptaciones = encriptaciones.replace(/o/g, "ober");
     encriptaciones = encriptaciones.replace(/u/g, "ufat");
-    encriptaciones = encriptaciones.replace(/[àáâãäå]/g, "a");
+    
     
     return encriptaciones;
 
