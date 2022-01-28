@@ -14,6 +14,7 @@ var inputtex = document.querySelector(".textinput");
 
 botonCopiar.addEventListener("click", function (event) {
   event.preventDefault();
+  document.querySelector("#msg").focus();
   document.execCommand("selectAll");
   document.execCommand("copy");
   fromCopy.reset();
